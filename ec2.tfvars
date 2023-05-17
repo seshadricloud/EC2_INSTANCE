@@ -1,0 +1,10 @@
+aws_region          = "sa-east-1"
+public_key_path     = "~/.ssh/id_rsa.pub"
+ami_id              = "ami-0da62eb5869c785b9"
+instance_type       = "t2.micro"
+keypair_name        = "production"
+subnet_id           = "subnet-0f779c1c97aee7257"
+user_data           = "#!/bin/bash\necho 'Nexus setup script'"
+instance_name       = "production"
+security_group_name = "production_sg"
+
